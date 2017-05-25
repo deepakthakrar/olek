@@ -12,7 +12,7 @@ while True:
     cv2.imshow("Capturing", gray_image)
 
 
-    key = cv2.waitKey(1)
+    key = cv2.waitKey(100)
     if key == ord("q"):
         break
 
